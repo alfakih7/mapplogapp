@@ -79,11 +79,9 @@ class _HomePageState extends State<HomePage> {
                   );
                 },
                 leading: const Icon(
-                  //hon drn lhe icon logout
                   Icons.logout,
                 ),
                 title: const Text(
-                  //w hon semeynaha a 3dlnaha
                   'Log out',
                   style: TextStyle(
                     color: Colors.black,
