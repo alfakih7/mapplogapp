@@ -8,12 +8,12 @@ String baconText =
 class DescriptionPage extends StatelessWidget {
   const DescriptionPage({
     super.key,
-    required this.title, //ha4i yak n3dlou title  variable = string w nrsslouh l kel description page
+    required this.title, 
     required this.imagePath,
   });
-  final String title; //w hon yak nn4ebtouhe 3le her value
+  final String title; 
   final String
-      imagePath; //yak n3adel variable w kel mera ndirlou 9ime v home page yak kel ma clickeyt 3le soura v home page tji soura li drthalhe ane v imagepath li tab3lhe tji v drescrption page l5ass bihe
+      imagePath; 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
