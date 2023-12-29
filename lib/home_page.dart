@@ -68,7 +68,6 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ),
               ),
-              //hon drne liste style w semeynaha logout w drne m3a navigator yak leyn nklickouha trj3ne l loginpage
               ListTile(
                 onTap: () {
                   Navigator.of(context).pushReplacement(
@@ -97,12 +96,9 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
       body: SingleChildScrollView(
-        //ha4i yak t5aaline ngudou ndirou widgehatne nyn t7t bdoun ma ymtle ecran y3ni ntemou n scrollou yak ngu8ou nchovouhm kvt 7d y5arass tiktok
         child: Column(
-          //6ari9a li 3dlnaha bihe hiye 3ne drne refractor 3le column + wrap widget w ktbne smhe
           children: [
             Padding(
-              //yak ndirou beynhm space m3a 7wache tlphn
               padding: const EdgeInsets.symmetric(
                 horizontal: 10,
                 vertical: 5,
@@ -158,8 +154,6 @@ class _HomePageState extends State<HomePage> {
                 ],
               ),
             ),
-            //gesturedetector yak n3dou soura clickable w tguss bine description page
-            //First
             GestureDetector(
               onTap: () {
                 Navigator.of(context).push(
@@ -195,7 +189,6 @@ class _HomePageState extends State<HomePage> {
                   children: [
                     Image.asset('images/image1.png.png'),
                     const ListTile(
-                      //hon listTile biheli da5l container vtji ngrou li ktbtou vihe
                       title: Text(
                         'diamond hands',
                         style: TextStyle(fontWeight: FontWeight.bold),
