@@ -35,18 +35,16 @@ class _HomePageState extends State<HomePage> {
         ],
         backgroundColor: Colors.red,
       ),
-      //drawer w sa6erteyn li t7the houme li 36awne 3 ligne a gauche lvog m3a side menu
+      
       drawer: SafeArea(
         child: Drawer(
           child: Column(
             children: [
               const DrawerHeader(
-                //ha4e 36ane chi kvt app bar l side menu
                 decoration: BoxDecoration(
-                  //4e w code li t7tou yak nlewnou app bar li v side menu li glne lvog
                   color: Colors.red,
                 ),
-                //listile w li m3ahe houme li darou essem 3le side menu lvog
+                
                 child: ListTile(
                   title: Text(
                     'flutter map',
@@ -58,7 +56,6 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
               ListTile(
-                //list stile hiye li tkteb 3le side menu
                 onTap: () {},
                 leading: const Icon(
                   Icons.settings,
@@ -234,7 +231,6 @@ class _HomePageState extends State<HomePage> {
                     borderRadius: BorderRadius.circular(15),
                     boxShadow: const [
                       BoxShadow(
-                        //ydur shadow 3le lcontainer li vih soura yak y3oud zeyn design
                         blurRadius: 3,
                         spreadRadius: 3,
                         offset: Offset(2, 2),
